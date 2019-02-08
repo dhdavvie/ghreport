@@ -7,12 +7,8 @@
 </h4>
 
 <p align="center">
-  <a href="https://github.com/digitalduke/git-tools/blob/master/LICENSE">
-    <img alt="License MIT" src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square">
-  </a>
-  <a href="https://www.debian.org/">
-    <img alt="OS independent" src="https://img.shields.io/badge/platform-independent-yellow.svg?style=flat-square">
-  </a>
+  <img alt="License MIT" src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square">
+  <img alt="OS independent" src="https://img.shields.io/badge/platform-independent-yellow.svg?style=flat-square">
 </p>
 
 ### What is it?
