@@ -35,11 +35,13 @@ $ python3 gh-report.py --store-repository <username/repository>
 ```
 
 #### Run
+Show daily activity for today:
 ```bash
-# show daily activity for today
 $ python3 gh-report.py
+```
 
-# show activity for the specific date
+Show activity for the specific date:
+```
 $ python3 gh-report.py --date 2018-11-25
 ```
 
