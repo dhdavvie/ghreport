@@ -56,6 +56,3 @@ Feel free to open a new [issues](https://github.com/digitalduke/gh-report/issues
 
 ### How to support
 Star this repository or [buy me a coffee](buymeacoff.ee/digitalduke) ;)
-
-<hr>
-Made with <3 and \~/
