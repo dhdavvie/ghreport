@@ -2,7 +2,7 @@ gh-report — review your daily activity on GitHub
 ![License info](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 ================================================
 
-gh-report is a small command line tools that shows your daily activity on GitHub. It Works via GitHub API.
+gh-report is a small command line tools that shows your daily activity on GitHub. It works via GitHub API.
 
 ## How to use
 
