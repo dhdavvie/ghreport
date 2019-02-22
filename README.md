@@ -1,23 +1,12 @@
-<h1 align="center">
-  gh-report
-</h1>
+gh-report — review your daily activity on GitHub 
+![License info](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
+================================================
 
-<h4 align="center">
-  Review your daily activity on GitHub.
-</h4>
+gh-report is a small command line tools that shows your daily activity on GitHub. It Works via GitHub API.
 
-<p align="center">
-  <img alt="License MIT" src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square">
-  <img alt="OS independent" src="https://img.shields.io/badge/platform-independent-yellow.svg?style=flat-square">
-</p>
+## How to use
 
-### What is it?
-
-This is a small script that shows your daily activity on GitHub. Works via GitHub API.
-
-### How to use
-
-#### Install
+### Install
 
 Package(s) will be later, sorry. For now, you may follow this steps:
 1. Clone repository and change dir `git clone https://github.com/digitalduke/gh-report.git && cd gh-report`
@@ -25,7 +14,7 @@ Package(s) will be later, sorry. For now, you may follow this steps:
 1. Create and activate environment `virtualenv -p python3 env && source env/bin/activate`
 1. Install dependencies `pip -r requirements.txt`
 
-#### Setup
+### Setup
 1. Go to your profile [settings](https://github.com/settings/tokens) and create [new access token](https://github.com/settings/tokens/new) with repo scope.
 
 2. Then store this token into the configuration file. The configuration file will be created in your profile directory.
@@ -38,7 +27,7 @@ $ python3 gh-report.py --store-token <token>
 $ python3 gh-report.py --store-repository <username/repository>
 ```
 
-#### Run
+### Run
 Show daily activity for today:
 ```bash
 $ python3 gh-report.py
@@ -49,10 +38,10 @@ Show activity for the specific date:
 $ python3 gh-report.py --date 2018-11-25
 ```
 
-### How to contribute
+## How to contribute
 Want to make a suggestion? This project is open source. Help to improve it.
 
 Feel free to open a new [issues](https://github.com/digitalduke/gh-report/issues/) or send pull requests.
 
-### How to support
+## How to support
 Star this repository or [buy me a coffee](https://www.buymeacoffee.com/digitalduke) ;)
