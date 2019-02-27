@@ -6,16 +6,16 @@ from datetime import date, datetime, timedelta
 from dateutil.parser import parse
 from github import Github, BadCredentialsException
 
-CONFIGURATION_FILENAME = 'gh-report'
+CONFIGURATION_FILENAME = 'ghreport'
 
 parser = argparse.ArgumentParser(
     description="Review your daily activity on GitHub.",
-    epilog="More information at https://https://github.com/digitalduke/gh-report"
+    epilog="More information at https://https://github.com/digitalduke/ghreport"
 )
 parser.add_argument(
     '--version',
     action='version',
-    version='gh-report 1.0.0'
+    version='ghreport 1.0.0'
 )
 parser.add_argument(
     '--date',
