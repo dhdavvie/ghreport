@@ -5,8 +5,8 @@ with open("README.md", "r") as readme_file:
     long_description = readme_file.read()
 
 setup(
-    name="gh-report",
-    version="0.1",
+    name="ghreport",
+    version="0.5",
 
     author="George P.",
     author_email="digitalduke@gmail.com",
@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     
-    url="https://github.com/digitalduke/gh-report",
+    url="https://github.com/digitalduke/ghreport",
 
     packages=find_packages(),
 
