@@ -8,34 +8,30 @@ ghreport is a small command line tools that shows your daily activity on GitHub.
 
 ### Install
 
-Package(s) will be later, sorry. For now, you may follow this steps:
-1. Clone repository and change dir `git clone https://github.com/digitalduke/ghreport.git && cd ghreport`
-1. Install Python3 `sudo apt install python3 python3-pip`
-1. Create and activate environment `virtualenv -p python3 env && source env/bin/activate`
-1. Install dependencies `pip -r requirements.txt`
+`pip install -i https://test.pypi.org/simple/ ghreport`
 
 ### Setup
 1. Go to your profile [settings](https://github.com/settings/tokens) and create [new access token](https://github.com/settings/tokens/new) with repo scope.
 
 2. Then store this token into the configuration file. The configuration file will be created in your profile directory.
 ```bash
-$ python3 ghreport.py --store-token <token>
+$ ghreport --store-token <token>
 ```
 
 3. And then add repositories names, for which you will need reports, into the configuration file.
 ```bash
-$ python3 ghreport.py --store-repository <username/repository>
+$ ghreport --store-repository <username/repository>
 ```
 
 ### Run
 Show daily activity for today:
 ```bash
-$ python3 ghreport.py
+$ ghreport
 ```
 
 Show activity for the specific date:
 ```
-$ python3 ghreport.py --date 2018-11-25
+$ ghreport --date 2019-02-27
 ```
 
 ## How to contribute
