@@ -1,8 +1,8 @@
-ghreport - review your activity on GitHub 
+**ghreport** - review your activity on GitHub 
 ![License info](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 ================================================
 
-ghreport is a small CLI tool that shows your activity on GitHub. It works via GitHub API.
+**ghreport** is a small CLI tool that shows your activity on GitHub. It works via GitHub API.
 
 ## How to use
 
