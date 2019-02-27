@@ -9,7 +9,7 @@ from github import Github, BadCredentialsException
 CONFIGURATION_FILENAME = 'ghreport'
 
 parser = argparse.ArgumentParser(
-    description="Review your daily activity on GitHub.",
+    description="Review your activity on GitHub.",
     epilog="More information at https://https://github.com/digitalduke/ghreport"
 )
 parser.add_argument(
@@ -155,7 +155,7 @@ def run():
 
             try:
                 closed_issues = user.get_issues(state="closed", since=date_since)
-                print("List of daily closed issues")
+                print("List of closed issues")
                 for issue in closed_issues:
                     if date_since <= issue.closed_at <= date_until:
                         print(issue.number, issue.html_url, issue.title)
@@ -165,7 +165,7 @@ def run():
 
             try:
                 commits = repo.get_commits(since=date_since, author=user)
-                print("List of daily commits in repo \"%s\" in PR which already closed" % repository)
+                print("List of commits in repo \"%s\" in PR which already closed" % repository)
                 for commit in commits:
                     print(commit.sha[:7], commit.html_url, commit.commit.message)
                 print()
@@ -175,7 +175,7 @@ def run():
             try:
                 pulls = repo.get_pulls(state="open", base="master")
                 if pulls:
-                    print("List of daily commits in repo \"%s\" in PR which don't closed" % repository)
+                    print("List of commits in repo \"%s\" in PR which don't closed" % repository)
 
                 for pr in pulls:
                     commits = pr.get_commits()

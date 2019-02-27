@@ -1,8 +1,8 @@
-ghreport - review your daily activity on GitHub 
+ghreport - review your activity on GitHub 
 ![License info](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 ================================================
 
-ghreport is a small command line tools that shows your daily activity on GitHub. It works via GitHub API.
+ghreport is a small command line tools that shows your activity on GitHub. It works via GitHub API.
 
 ## How to use
 
@@ -24,7 +24,7 @@ $ ghreport --store-repository <username/repository>
 ```
 
 ### Run
-Show daily activity for today:
+Show activity for today:
 ```bash
 $ ghreport
 ```

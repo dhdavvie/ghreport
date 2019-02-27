@@ -6,12 +6,12 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="ghreport",
-    version="0.6",
+    version="0.7",
 
     author="George P.",
     author_email="digitalduke@gmail.com",
     
-    description="Review your daily activity on GitHub.",
+    description="Review your activity on GitHub.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     
