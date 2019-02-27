@@ -1,4 +1,4 @@
-gh-report — review your daily activity on GitHub 
+gh-report - review your daily activity on GitHub 
 ![License info](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 ================================================
 
