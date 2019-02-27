@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="ghreport",
-    version="0.5",
+    version="0.6",
 
     author="George P.",
     author_email="digitalduke@gmail.com",
@@ -30,4 +30,10 @@ setup(
         "Topic :: Software Development",
         "Topic :: Utilities",
     ],
+
+    entry_points={
+              'console_scripts': [
+                  'ghreport = ghreport.ghreport:run',
+              ]
+    },
 )
