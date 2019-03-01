@@ -8,7 +8,7 @@
 
 ### Install
 
-`pip install -i https://test.pypi.org/simple/ ghreport`
+`pip install ghreport`
 
 ### Setup
 1. Go to your profile [settings](https://github.com/settings/tokens) and create [new access token](https://github.com/settings/tokens/new) with repo scope.
@@ -40,4 +40,4 @@ Want to make a suggestion? This project is open source. Help to improve it.
 Feel free to open a new [issues](https://github.com/digitalduke/ghreport/issues/) or send pull requests.
 
 ## How to support
-Star this repository or [buy me a coffee](https://www.buymeacoffee.com/digitalduke) ;)
+Star repository or [buy me a coffee](https://www.buymeacoffee.com/digitalduke) ;)
