@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="ghreport",
-    version="0.8",
+    version="0.9b1",
 
     author="George P.",
     author_email="digitalduke@gmail.com",
