@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="ghreport",
-    version="0.7",
+    version="0.8",
 
     author="George P.",
     author_email="digitalduke@gmail.com",
@@ -17,7 +17,7 @@ setup(
     
     url="https://github.com/digitalduke/ghreport",
 
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests*']),
 
     classifiers=[
         "Development Status :: 4 - Beta",
