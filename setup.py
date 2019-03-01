@@ -18,6 +18,11 @@ setup(
     url="https://github.com/digitalduke/ghreport",
 
     packages=find_packages(exclude=['tests*']),
+    install_requires=[
+        'PyGithub>=1.43.5',
+        'python-dateutil>=2.8.0',
+    ],
+    python_requires='>=3',
 
     classifiers=[
         "Development Status :: 4 - Beta",
