@@ -37,8 +37,8 @@ setup(
     ],
 
     entry_points={
-              'console_scripts': [
-                  'ghreport = ghreport.ghreport:run',
-              ]
+        'console_scripts': [
+            'ghreport = ghreport.ghreport:run',
+        ]
     },
 )
