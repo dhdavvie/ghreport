@@ -8,7 +8,9 @@
 
 ### Install
 
-`pip install ghreport`
+```bash
+$ pip install ghreport
+```
 
 ### Setup
 1. Go to your profile [settings](https://github.com/settings/tokens) and create [new access token](https://github.com/settings/tokens/new) with repo scope.
