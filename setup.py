@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="ghreport",
-    version="0.7",
+    version="0.9b1",
 
     author="George P.",
     author_email="digitalduke@gmail.com",
@@ -14,10 +14,17 @@ setup(
     description="Review your activity on GitHub.",
     long_description=long_description,
     long_description_content_type="text/markdown",
+
+    license="MIT",
     
     url="https://github.com/digitalduke/ghreport",
 
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests*']),
+    install_requires=[
+        'PyGithub>=1.43.5',
+        'python-dateutil>=2.8.0',
+    ],
+    python_requires='>=3',
 
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -32,8 +39,8 @@ setup(
     ],
 
     entry_points={
-              'console_scripts': [
-                  'ghreport = ghreport.ghreport:run',
-              ]
+        'console_scripts': [
+            'ghreport = ghreport.ghreport:run',
+        ]
     },
 )
