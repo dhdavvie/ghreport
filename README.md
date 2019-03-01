@@ -1,5 +1,5 @@
 **ghreport** - review your activity on GitHub 
-![License info](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
+![PyPi info](https://img.shields.io/pypi/v/ghreport.svg?style=flat-square) ![License info](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)
 ================================================
 
 **ghreport** is a small CLI tool that shows your activity on GitHub. It works via GitHub API.
