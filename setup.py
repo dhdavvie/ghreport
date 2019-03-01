@@ -14,6 +14,8 @@ setup(
     description="Review your activity on GitHub.",
     long_description=long_description,
     long_description_content_type="text/markdown",
+
+    license="MIT",
     
     url="https://github.com/digitalduke/ghreport",
 
